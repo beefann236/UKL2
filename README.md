@@ -1,14 +1,16 @@
-1 Program Bilangan Ganjil atau Genap
-Perangkat program:
+Program Menghitung Faktorial
+🔹 Perangkat program:
 
-Scanner input = new Scanner(System.in); → untuk menerima input bilangan dari pengguna.
+Scanner input = new Scanner(System.in); → untuk membaca input bilangan.
 
-int bilangan = input.nextInt(); → menyimpan bilangan yang dimasukkan.
+int n = input.nextInt(); → menyimpan bilangan bulat yang dimasukkan.
 
-if (bilangan % 2 == 0) → mengecek apakah bilangan habis dibagi 2.
+for (int i = 1; i <= n; i++) → perulangan dari 1 sampai n.
 
-System.out.println() → menampilkan hasil berupa keterangan ganjil atau genap.
+hasil *= i; → mengalikan setiap bilangan secara bertahap.
 
-Cara kerjanya:
+System.out.println() → menampilkan hasil faktorial.
 
-Program membaca satu bilangan dari pengguna, kemudian memeriksa apakah bilangan tersebut memiliki sisa pembagian 2 atau tidak. Bila sisa = 0, maka bilangan genap; jika tidak, bilangan ganjil. Program ini menggambarkan penggunaan logika dan operator modulus.
+🔹 Cara kerjanya:
+
+Pengguna memasukkan bilangan positif. Program kemudian melakukan pengulangan untuk mengalikan setiap angka dari 1 sampai n. Nilai hasil dikalikan terus hingga loop berakhir, dan hasil akhirnya adalah nilai faktorial dari bilangan tersebut.

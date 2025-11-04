@@ -1,3 +1,5 @@
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-04 140756" src="https://github.com/user-attachments/assets/dceb8b24-b75c-4e3b-bfca-85d503e2a8e5" />
 Program Menghitung Faktorial
 🔹 Perangkat program:
 
